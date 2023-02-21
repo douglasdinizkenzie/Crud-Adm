@@ -12,22 +12,6 @@ import { returnUserSchemaWithoutPassword } from "../../schemas/user.schema";
 export const createUserService = async (
   userData: IUserRequest
 ): Promise<IUserWithoutPassword> => {
-  // const queryStringVerifyEmail: string = `
-  //   SELECT *
-  //   FROM users
-  //   WHERE email = $1
-  //   `;
-  // const queryConfig: QueryConfig = {
-  //   text: queryStringVerifyEmail,
-  //   values: [userData.email],
-  // };
-
-  // const QueryResultVerifyEmail: QueryResult = await client.query(queryConfig);
-
-  // if (QueryResultVerifyEmail.rowCount > 0) {
-  //   throw new AppError("E-mail already registered", 409);
-  // }
-
   const queryString: string = format(
     `
     INSERT INTO
