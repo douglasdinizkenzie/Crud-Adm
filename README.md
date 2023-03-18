@@ -2,7 +2,7 @@
 
 ### Aplicação backend que consiste em criar usuários comuns ou adms
 
-Nsse CRUD de usuário + permissão de administrador foi desenvolvido um crud de usuário, onde há algumas regras de verificações de usuário (admin ou usuário comum).
+Nesse CRUD de usuário + permissão de administrador foi desenvolvido um crud de usuário, onde há algumas regras de verificações de usuário (admin ou usuário comum).
 
 Tecnologias utilizadas:
 
